@@ -13,9 +13,9 @@ async function testMysqlConn() {
 }
 
 // // 可直接执行 node src/db/mysql2.js 进行测试
-// ;(async () => {
-//     const rows = await testMysqlConn()
-//     console.log(rows)
-// })()
+;(async () => {
+    const rows = await testMysqlConn()
+    console.log(rows)
+})()
 
 module.exports = testMysqlConn

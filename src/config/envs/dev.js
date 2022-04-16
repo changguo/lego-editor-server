@@ -8,9 +8,9 @@ module.exports = {
     mysqlConf: {
         host: 'localhost',
         user: 'root',
-        password: 'Mysql_2019',
+        password: 'haoweilai8888',
         port: '3306',
-        database: 'imooc_lego_course',
+        database: 'imooc_lego_courses',
     },
 
     // mongodb 连接配置

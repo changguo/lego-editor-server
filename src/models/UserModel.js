@@ -32,7 +32,7 @@ const User = seq.define('user', {
         type: STRING,
         allowNull: false,
         defaultValue: 0,
-        comment: '性别（1 男性，2 女性，0 保密）',
+        comment: '性别(1 男性,2 女性,0 保密）',
     },
     picture: {
         type: STRING,
@@ -48,6 +48,11 @@ const User = seq.define('user', {
         comment: '最后登录时间',
     },
     isFrozen: {
+        type: BOOLEAN,
+        defaultValue: false,
+        comment: '用户是否冻结',
+    },
+    hahahhaha: {
         type: BOOLEAN,
         defaultValue: false,
         comment: '用户是否冻结',
